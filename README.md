@@ -93,11 +93,25 @@ users
 ├── id
 ├── username
 └── password
+
+### Students Table
+
+Used to store student information displayed by the application.
+
 students
 ├── student details
 └── academic / personal information
 
-## 🔐 Security
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+
+![Login Page](screenshots/login.png)
+
+### 👨‍🎓 Student Management
+
+![Student Management](screenshots/student.png)
 
 The project uses AWS security features to control communication between different components.
 
@@ -193,7 +207,7 @@ Working with Linux commands and server environments
 
 The project successfully demonstrates how a web application can be deployed using AWS cloud infrastructure while integrating compute, database, storage, networking, serverless processing, load balancing, and monitoring services.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Soorya S Raj
 
