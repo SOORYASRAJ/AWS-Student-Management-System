@@ -43,16 +43,16 @@ The following architecture demonstrates the AWS infrastructure used to deploy th
 | **Amazon CloudWatch**         | Monitors AWS resources and application infrastructure          |
 | **Security Groups**           | Controls inbound and outbound network traffic                  |
 
-✨ Features
-🔐 User login authentication
-👨‍🎓 Student information management
-🗄️ MySQL database integration
-☁️ AWS cloud deployment
-📦 File storage using Amazon S3
-⚡ Event-driven Lambda function
-⚖️ Application Load Balancer
-📊 CloudWatch monitoring
-🔒 Network security using Security Groups
+## ✨ Features
+🔐 User login authentication <br>
+👨‍🎓 Student information management <br>
+🗄️ MySQL database integration <br>
+☁️ AWS cloud deployment <br>
+📦 File storage using Amazon S3 <br>
+⚡ Event-driven Lambda function <br>
+⚖️ Application Load Balancer <br>
+📊 CloudWatch monitoring <br>
+🔒 Network security using Security Groups <br>
 🌐 VPC-based AWS infrastructure
 
 🛠️ Technologies
