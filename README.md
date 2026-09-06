@@ -107,7 +107,7 @@ EC2 is used to host the application
 RDS is separated from direct public access
 Application traffic is routed through the Load Balancer
 
-📂 Project Structure
+## 📂 Project Structure
 AWS-Student-Management-System/
 │
 ├── application/
@@ -137,7 +137,9 @@ AWS-Student-Management-System/
 ├── .gitignore
 │
 └── README.md
-⚙️ Deployment Overview
+
+
+## ⚙️ Deployment Overview
 
 The application was deployed using the following process:
 
@@ -156,7 +158,9 @@ The application was deployed using the following process:
         │
         ▼
    Flask Application
-🧪 Testing
+   
+   
+## 🧪 Testing
 
 The application was tested by:
 
@@ -167,7 +171,9 @@ Verifying database connectivity
 Testing S3 file uploads
 Verifying Lambda execution
 Monitoring AWS resources using CloudWatch
-📚 What I Learned
+
+
+## 📚 What I Learned
 
 Through this project, I gained practical experience in:
 
@@ -181,7 +187,8 @@ Configuring an Application Load Balancer
 Using Security Groups
 Monitoring infrastructure with CloudWatch
 Working with Linux commands and server environments
-🎯 Project Outcome
+
+## 🎯 Project Outcome
 
 The project successfully demonstrates how a web application can be deployed using AWS cloud infrastructure while integrating compute, database, storage, networking, serverless processing, load balancing, and monitoring services.
 
