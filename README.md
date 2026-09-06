@@ -88,7 +88,7 @@ The application uses **MySQL hosted on Amazon RDS**.
 
 Used to store user authentication information.
 
-```text
+
 users
 ├── id
 ├── username
