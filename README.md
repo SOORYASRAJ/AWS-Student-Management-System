@@ -97,6 +97,96 @@ students
 ├── student details
 └── academic / personal information
 
-![Login Page](screenshots/login.png)
+🔐 Security
 
-![Student Management Page](screenshots/student.png)
+The project uses AWS security features to control communication between different components.
+
+VPC provides network isolation
+Security Groups control inbound and outbound traffic
+EC2 is used to host the application
+RDS is separated from direct public access
+Application traffic is routed through the Load Balancer
+
+📂 Project Structure
+AWS-Student-Management-System/
+│
+├── application/
+│   ├── app.py
+│   │
+│   ├── templates/
+│   │   ├── login.html
+│   │   └── students.html
+│   │
+│   └── static/
+│       ├── css/
+│       ├── js/
+│       └── images/
+│
+├── screenshots/
+│   ├── login.png
+│   ├── student-details.png
+│   ├── ec2.png
+│   ├── rds.png
+│   ├── s3.png
+│   ├── lambda.png
+│   ├── alb.png
+│   └── cloudwatch.png
+│
+├── requirements.txt
+│
+├── .gitignore
+│
+└── README.md
+⚙️ Deployment Overview
+
+The application was deployed using the following process:
+
+                AWS VPC
+                  │
+        ┌─────────┴─────────┐
+        │                   │
+ Public Subnet         Private Subnet
+        │                   │
+        ▼                   ▼
+ Application              RDS
+ Load Balancer           MySQL
+        │
+        ▼
+       EC2
+        │
+        ▼
+   Flask Application
+🧪 Testing
+
+The application was tested by:
+
+Accessing the application through the Application Load Balancer
+Testing the login functionality
+Checking student information
+Verifying database connectivity
+Testing S3 file uploads
+Verifying Lambda execution
+Monitoring AWS resources using CloudWatch
+📚 What I Learned
+
+Through this project, I gained practical experience in:
+
+Deploying web applications on AWS
+Configuring AWS VPC networking
+Working with EC2
+Connecting applications to RDS MySQL
+Using S3 for file storage
+Creating event-driven Lambda functions
+Configuring an Application Load Balancer
+Using Security Groups
+Monitoring infrastructure with CloudWatch
+Working with Linux commands and server environments
+🎯 Project Outcome
+
+The project successfully demonstrates how a web application can be deployed using AWS cloud infrastructure while integrating compute, database, storage, networking, serverless processing, load balancing, and monitoring services.
+
+👨‍💻 Author
+
+Soorya S Raj
+
+B.Tech Computer Science Engineering
