@@ -64,6 +64,7 @@ Cloud
 <p> <img src="https://img.shields.io/badge/Amazon%20EC2-orange?logo=amazonec2&logoColor=white"> <img src="https://img.shields.io/badge/Amazon%20RDS-blue?logo=amazonrds&logoColor=white"> <img src="https://img.shields.io/badge/Amazon%20S3-red?logo=amazons3&logoColor=white"> <img src="https://img.shields.io/badge/AWS%20Lambda-orange?logo=awslambda&logoColor=white"> <img src="https://img.shields.io/badge/AWS%20VPC-purple?logo=amazonaws&logoColor=white"> <img src="https://img.shields.io/badge/CloudWatch-orange?logo=amazoncloudwatch&logoColor=white"> </p>
 
 Application Workflow
+```text
 
 1️⃣ User opens the application
               ↓
@@ -79,7 +80,7 @@ Application Workflow
               ↓
 7️⃣ Response is displayed to the user
 
-
+```
 ## 🗄️ Database
 
 The application uses **MySQL hosted on Amazon RDS**.
