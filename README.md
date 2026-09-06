@@ -130,27 +130,17 @@ The project uses AWS security features to control communication between differen
 ```text
 AWS-Student-Management-System/
 │
-├── application/
-│   ├── app.py
-│   │
-│   ├── templates/
+│── templates/
 │   │   ├── login.html
 │   │   └── students.html
 │   │
-│   └── static/
+│── static/
 │       ├── css/
-│       ├── js/
-│       └── images/
 │
 ├── screenshots/
 │   ├── login.png
-│   ├── student-details.png
-│   ├── ec2.png
-│   ├── rds.png
-│   ├── s3.png
-│   ├── lambda.png
-│   ├── alb.png
-│   └── cloudwatch.png
+│   ├── student.png
+│   ├── aws-architecture.png
 │
 ├── requirements.txt
 ├── .gitignore
