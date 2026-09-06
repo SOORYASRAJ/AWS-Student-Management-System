@@ -53,7 +53,7 @@ The following architecture demonstrates the AWS infrastructure used to deploy th
 ⚖️ Application Load Balancer <br>
 📊 CloudWatch monitoring <br>
 🔒 Network security using Security Groups <br>
-🌐 VPC-based AWS infrastructure
+🌐 VPC-based AWS infrastructure <br>
 📢 Amazon SNS notifications
 
 🛠️ Technologies
