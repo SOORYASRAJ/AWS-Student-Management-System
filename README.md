@@ -97,17 +97,21 @@ students
 ├── student details
 └── academic / personal information
 
-🔐 Security
+## 🔐 Security
 
 The project uses AWS security features to control communication between different components.
 
-VPC provides network isolation
-Security Groups control inbound and outbound traffic
-EC2 is used to host the application
-RDS is separated from direct public access
-Application traffic is routed through the Load Balancer
+- **VPC** provides network isolation
+- **Security Groups** control inbound and outbound traffic
+- **EC2** is used to host the application
+- **RDS** is separated from direct public access
+- **Application traffic** is routed through the Load Balancer
+
+---
 
 ## 📂 Project Structure
+
+```text
 AWS-Student-Management-System/
 │
 ├── application/
@@ -133,11 +137,8 @@ AWS-Student-Management-System/
 │   └── cloudwatch.png
 │
 ├── requirements.txt
-│
 ├── .gitignore
-│
 └── README.md
-
 
 ## ⚙️ Deployment Overview
 
