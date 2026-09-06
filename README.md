@@ -139,9 +139,9 @@ AWS-Student-Management-System/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ## ⚙️ Deployment Overview
-
+```text
 The application was deployed using the following process:
 
                 AWS VPC
@@ -160,7 +160,7 @@ The application was deployed using the following process:
         ▼
    Flask Application
    
-   
+ ```  
 ## 🧪 Testing
 
 The application was tested by:
@@ -197,4 +197,4 @@ The project successfully demonstrates how a web application can be deployed usin
 
 Soorya S Raj
 
-B.Tech Computer Science Engineering
+
