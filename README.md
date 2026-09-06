@@ -88,20 +88,20 @@ The application uses **MySQL hosted on Amazon RDS**.
 
 Used to store user authentication information.
 
-
+```text
 users
 ├── id
 ├── username
 └── password
-
+```
 ### Students Table
 
 Used to store student information displayed by the application.
-
+```text
 students
 ├── student details
 └── academic / personal information
-
+```
 
 ## 📸 Screenshots
 
