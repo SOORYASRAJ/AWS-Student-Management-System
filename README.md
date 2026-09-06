@@ -54,6 +54,7 @@ The following architecture demonstrates the AWS infrastructure used to deploy th
 📊 CloudWatch monitoring <br>
 🔒 Network security using Security Groups <br>
 🌐 VPC-based AWS infrastructure
+📢 Amazon SNS notifications
 
 🛠️ Technologies
 Application
@@ -198,6 +199,17 @@ Working with Linux commands and server environments
 ## 🎯 Project Outcome
 
 The project successfully demonstrates how a web application can be deployed using AWS cloud infrastructure while integrating compute, database, storage, networking, serverless processing, load balancing, and monitoring services.
+
+## 🔮 Future Enhancements
+
+- 🔑 Implement role-based access control for different users
+- 📱 Develop a mobile-friendly version of the application
+- 📈 Add advanced student performance analytics and dashboards
+- 🔍 Implement advanced search and filtering for student records
+- 🔄 Introduce automated database backups and recovery
+- 🚀 Implement auto-scaling for handling increased application traffic
+- 🛡️ Enhance authentication and application security
+- 📊 Add more detailed CloudWatch dashboards and alerts
 
 ## 👨‍💻 Author
 
